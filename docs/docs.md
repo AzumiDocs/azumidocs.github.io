@@ -44,6 +44,7 @@ Azumi's commands are separated into several cogs to reduce the amount of stress 
 
 > The `/wx` command is not inside of a cog due to circular import errors.
 
+#### External
 #### botinfo.py
 
 > `botinfo.py` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
@@ -240,5 +241,40 @@ The `usercmds.py` cog is used for user commands.
 
 About Member (known as `memberclick` in the code) is a user command that gets information about the selected member. It is the User Command variant of `/member`.
 
+### Errors
+
+Errors are Azumi's way of figuring out what went wrong.
+
+#### Internal
+##### GatewayConnectionRefusedError
+
+```
+GatewayConnectionRefusedError: Client could not connect to Discord Gateway.
+```
+
+This error means that the client could not connect to the gateway.
+
+Possible reasons why this error appears:
+
+- Your token is invalid.
+- Your firewall is blocking the gateway.
+- Your network is blocking the gateway.
+- Your script doesn't have permission to connect to the internet.
+
+#### External
+
+External errors are errors provided by APIs, and not Azumi itself.
+##### Forbidden
+
+```
+Forbidden: ...
+```
+
+This error is provided by Discord, and it means that your bot is missing permissions.
+
+Possible reasons why this error appears:
+
+- Your bot is missing permissions required to perform a certain action.
+- Your bot is trying to perform an action on a user/role that is higher in the role hierarchy.
 
 # End of Documentation
