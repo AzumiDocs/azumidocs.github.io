@@ -1,1 +1,1 @@
-The official Azumi Development documentation
+The official Azumi Development documentation.
