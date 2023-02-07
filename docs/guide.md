@@ -1,4 +1,4 @@
-# Coming soon!
+# Azumi Guide
 
 ### Extending from Azumi
 
@@ -7,8 +7,8 @@ This section of the guide will show you how to create a bot extension from Azumi
 
 #### Requirements
 
-- IDE/Code Editor
-- A copy of Azumi's source code. (Good luck getting a hold of this... 😂)
+- IDE / Code Editor / Notepad
+- A copy of Azumi's source code. (There must be a clear and valid reason in your application for receiving source code. Source code is currently not available to non-developers.)
 - Basic Python object knowledge.
 
 
@@ -29,7 +29,7 @@ import dotenv
 from dotenv import load_dotenv
 
 load_dotenv('.env')
-token_name = os.getenv("YOUR_TOKEN_REGISTRY") # Make sure that your token variable is not called 'token', as this powers things behind the scenes.
+token_name = os.getenv("YOUR_TOKEN_REGISTRY") # Make sure that your token variable is NOT called 'token', as this powers things behind the scenes for the official bot instance.
 
 bot = Azumi(intents=Azumi().intents)
 
@@ -40,3 +40,5 @@ bot.run(mytoken)
 ```
 
 There you go! That's all!
+
+# End of Guide
