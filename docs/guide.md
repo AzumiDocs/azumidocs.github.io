@@ -2,6 +2,8 @@
 
 ### Extending from Azumi
 
+> Currently, `Extending from Azumi` is not possible due to an unknown reason.
+
 This section of the guide will show you how to create a bot extension from Azumi. This will allow you to run your own instance of Azumi.
 
 
