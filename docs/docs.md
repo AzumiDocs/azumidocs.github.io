@@ -1,7 +1,8 @@
 # Azumi Documentation
 
 
-Thanks to `docsify` for making this possible!
+🙂 Thanks to `docsify` for making this possible!
+Check out the `docsify` project [here](https://docsify.js.org/).
 
 
 

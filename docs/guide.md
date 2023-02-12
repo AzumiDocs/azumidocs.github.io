@@ -1,5 +1,12 @@
 # Azumi Guide
 
+ 
+🙂 Thanks to `docsify` for making this possible!
+Check out the `docsify` project [here](https://docsify.js.org/).
+
+
+
+
 ### Extending from Azumi
 
 > Currently, `Extending from Azumi` is not possible due to an unknown reason.
