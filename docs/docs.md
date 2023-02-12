@@ -1,6 +1,10 @@
 # Azumi Documentation
 
 
+Thanks to `docsify` for making this possible!
+
+
+
 ### Structure
 
 #### Sub-Classing
@@ -276,5 +280,7 @@ Possible reasons why this error appears:
 
 - Your bot is missing permissions required to perform a certain action.
 - Your bot is trying to perform an action on a user/role that is higher in the role hierarchy.
+
+
 
 # End of Documentation
