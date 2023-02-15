@@ -50,10 +50,10 @@ Azumi's commands are separated into several cogs to reduce the amount of stress 
 > The `/wx` command is not inside of a cog due to circular import errors.
 
 #### External
-#### botinfo.py
+#### Bot Info
 
-> `botinfo.py` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
-The `botinfo.py` cog is used for commands that provide information related to Azumi.
+> `BotInfo` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
+The Bot Info cog is used for commands that provide information related to Azumi.
 
 ##### Guilds
 
@@ -63,10 +63,10 @@ The `botinfo.py` cog is used for commands that provide information related to Az
 
 `/contributor` is an information command that shows information about people that have contributed to the development of Azumi.
 
-#### dice.py
+#### Dice
 
-> `dice.py` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
-The `dice.py` cog is used for commands that allow you to roll a die.
+> `DiceCommands` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
+The Dice cog is used for commands that allow you to roll a die.
 
 ##### Roll
 
@@ -96,19 +96,19 @@ The `dice.py` cog is used for commands that allow you to roll a die.
 
 `/roll 8` (known as `eight` in the code) is a command that allows you to roll an eight-sided die.
 
-#### funcmds.py
+#### Fun Commands
 
-> `funcmds.py` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
-The `funcmds.py` cog is used for commands that are not supposed to be taken seriously, but as fun features.
+> `FunCommands` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
+The Fun Commands cog is used for commands that are not supposed to be taken seriously, but as fun features.
 
 ##### Hug
 
 `/hug` is a command that allows you to hug another member of the server you use the command in, and sends a random GIF of a hug.
 
-#### mathcmds.py
+#### Math Commands
 
-> `mathcmds.py` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
-The `mathcmds.py` cog is used for commands that calculate equations.
+> `MathCommands` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
+The Math Commands cog is used for commands that calculate equations.
 
 ##### Math
 
@@ -142,32 +142,32 @@ The `mathcmds.py` cog is used for commands that calculate equations.
 
 `/math percent` is a command that can find a `float` percentage of a `float` number.
 
-#### messagecmds.py
+#### Message Commands
 
-> `messagecmds.py` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
-The `messagecmds.py` cog is used for message commands.
+> `MessageCommands` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
+The Message Commands cog is used for message commands.
 
-##### getmid
+##### Get Message ID
 
 `Get Message ID` (known as `getmid` in the code) is a message command that gets the Message ID of the selected message.
 
-##### reportmessage
+##### Report Message
 
 `Report Message` (known as `reportmessage` in the code) is a message command that uses a webhook to send a reported message to the developers of Azumi.
 
-#### moderation.py
+#### Moderation Commands
 
-> `moderation.py` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
-The `moderation.py` cog is used for commands that help moderate servers.
+> `ModerationCommands` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
+The Moderation Commands cog is used for commands that help moderate servers.
 
 ##### Timeout
 
 `/timeout` is a command that allows a user with the `moderate_members` permission (this is checked on usage of the command) to timeout a member that has a lower role in the hierarchy than them for up to 28 days. The bot must also have the `moderate_members` permission for this to work.
 
-#### postboards.py
+#### Postboard Commands
 
-> `postboards.py` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
-The `postboards.py` cog is used for commands that post messages to the message boards in servers that have message boards enabled.
+> `PostboardCommands` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
+The Postboard Commands cog is used for commands that post messages to the message boards in servers that have message boards enabled.
 
 ##### Post
 
@@ -185,10 +185,10 @@ The `postboards.py` cog is used for commands that post messages to the message b
 
 Azumi will automatically add the set default reactions in that server to each post in the postboards of that server.
 
-#### utilitycmds.py
+#### Utility Commands
 
-> `utilitycmds.py` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
-The `utilitycmds.py` cog is used for commands that are used for utility and quality of life.
+> `UtilityCommands` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
+The Utility Commands cog is used for commands that are used for utility and quality of life.
 
 ##### Report
 
@@ -237,12 +237,12 @@ It shows the following information:
 
 `/github pull` is a command that grabs a specific pull request from a selected repository.
 
-#### usercmds.py
+#### User Commands
 
-> `usercmds.py` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
-The `usercmds.py` cog is used for user commands.
+> `UserCommands` is one of many cogs that are attached to Azumi. It is subclassed from `commands.Cog` as stated in a blog article by AquaQuokka.
+The User Commands cog is used for user commands.
 
-##### memberclick
+##### About Member
 
 About Member (known as `memberclick` in the code) is a user command that gets information about the selected member. It is the User Command variant of `/member`.
 
