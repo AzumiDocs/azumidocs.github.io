@@ -1,0 +1,5 @@
+* [Docs](/docs)
+    * [Structure](/docs?id=structure)
+    * [Commands](/docs?id=commands)
+    * [Errors](/docs?id=errors)
+* [Guide](/guide)

@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "docsify-pagination": "^2.10.1",
+    "less": "^4.1.3"
+  }
+}
